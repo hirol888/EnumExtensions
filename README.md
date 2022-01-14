@@ -1,6 +1,8 @@
 ## EnumExtensions
 An enum extension that allows to use custom attributes to extend enum metadata.
 
+[![NuGet](https://img.shields.io/badge/nuget-v1.0.2-blue)](https://www.nuget.org/packages/EnumExtensions/)
+
 ### Get it
 ```
 PM> Install-Package EnumExtensions
