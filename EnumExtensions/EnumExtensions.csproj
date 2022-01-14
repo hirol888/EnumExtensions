@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+	<GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+	<Description>An enum extension that allows to use custom attributes to extend enum metadata.</Description>
+	<PackageProjectUrl>https://github.com/hirol888/EnumExtensions</PackageProjectUrl>
+	<RepositoryUrl>https://github.com/hirol888/EnumExtensions</RepositoryUrl>
+	<PackageTags>C#;.NET;Enum;EnumExtensions</PackageTags>
+	<Authors>Huining Li</Authors>
+	<PackageLicenseExpression>MIT</PackageLicenseExpression>
+	<SignAssembly>True</SignAssembly>
+  </PropertyGroup>
+
+</Project>
