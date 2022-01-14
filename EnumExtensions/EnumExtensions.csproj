@@ -10,6 +10,16 @@
 	<Authors>Huining Li</Authors>
 	<PackageLicenseExpression>MIT</PackageLicenseExpression>
 	<SignAssembly>True</SignAssembly>
+	<PackageReadmeFile>README.md</PackageReadmeFile>
+	<AssemblyVersion>1.0.2</AssemblyVersion>
+	<Version>1.0.2</Version>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>

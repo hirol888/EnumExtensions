@@ -3,7 +3,7 @@ An enum extension that allows to use custom attributes to extend enum metadata.
 
 ### Get it
 ```
-PM> Install-Package
+PM> Install-Package EnumExtensions
 ```
 
 ### Basic usage
@@ -55,5 +55,10 @@ public enum StatusEnum
 
 #### Get enum metadata
 ```csharp
+    StatusEnum okStatus = StatusEnum.OK;
 
+    var code = okStatus.GetAttributeOfType<StatusEnumMetadata>()?.Code;
+    var description = okStatus.GetAttributeOfType<StatusEnumMetadata>()?.Description;
+    var color = okStatus.GetAttributeOfType<StatusEnumMetadata>()?.Color;
+    var order = okStatus.GetAttributeOfType<StatusEnumMetadata>()?.Order;
 ```
